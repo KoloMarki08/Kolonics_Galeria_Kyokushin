@@ -41,6 +41,16 @@ div.row {
     margin-bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
 .vissza {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -56,4 +66,23 @@ div.row {
 .footer-szoveg {
     color: white;
     margin-bottom: 10px;
+}
+.storykep {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: block;
+}
+
+.storyvideo{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: block;
 }
